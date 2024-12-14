@@ -1,4 +1,6 @@
-# Muse Motor Imagery Classification
+# Muse Motor Imagery Classification - EEGNet
+
+![Casque Muse 2](assets/image.jpg)
 
 Ce projet utilise des signaux EEG pour la classification de l'imagerie motrice en temps réel. Il fonctionne avec un casque Muse 2 pour capturer des données EEG, les traiter et effectuer des prédictions en temps réel grâce à un modèle de deep learning.
 
