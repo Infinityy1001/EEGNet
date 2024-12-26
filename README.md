@@ -23,9 +23,9 @@ Ce projet utilise des signaux EEG pour la classification de l'imagerie motrice e
 ## Prérequis
 
 1. Installer **Python 3.10** ou une version supérieure.
-2. Installer les bibliothèques nécessaires via `pip` :
+2. Installer les les dépendances nécessaires via `pip` :
    ```bash
-   pip install torch pylsl mne numpy pandas keyboard
+   pip install -r requirements.txt
    ```
 ## Installation
 
