@@ -1,4 +1,4 @@
-from pylsl import StreamInlet, resolve_stream
+from pylsl import StreamInlet, resolve_byprop
 import time
 import torch
 import numpy as np
@@ -45,7 +45,7 @@ def predict(x_pred, model):
 # Fonction principale
 def main():
     print("Recherche d'un flux EEG...")
-    streams = resolve_stream('type', 'EEG')
+    streams = resolve_byprop('type', 'EEG')
     inlet = StreamInlet(streams[0]) 
     samples = []
 
